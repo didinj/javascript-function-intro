@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+
+<body>
+
+    <!-- please comment the some script before you run the program in the browser -->
+
+    <!-- built-in function : string -->
+    <script>
+        let name = "Ridwan Fadilah";
+        console.log(name.charAt(5));
+    </script>
+
+    <!-- built-in function : math -->
+    <script>
+        let num = Math.random();
+        console.log(num);
+    </script>
+
+    <!-- User defined function : function declaration -->
+    <script>
+        function myFunction(a, b) {
+            let total;
+            total = a + b;
+
+            return total;
+        }
+
+        alert(myFunction(12, 10));
+    </script>
+
+    <!-- call the function repeatedly -->
+    <script>
+        function myFunction(a, b) {
+            let total;
+            total = a + b;
+
+            return total;
+        }
+
+        alert(myFunction(12, 10));
+        alert(myFunction(30, 20));
+        alert(myFunction(50, 50));
+    </script>
+
+    <!-- User defined function : function expression -->
+    <script>
+        let myFunction = function (a, b) {
+            let total;
+            total = a + b;
+
+            return total;
+        }
+
+        alert(myFunction(1200, 300));
+    </script>
+
+</body>
+
+</html>
